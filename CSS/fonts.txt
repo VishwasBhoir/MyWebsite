@@ -1,0 +1,10 @@
+font-family: 'Italianno', cursive;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Public Sans', sans-serif;
+
+
+colorhunt
+colorpalette used:
+Color Palette 108974

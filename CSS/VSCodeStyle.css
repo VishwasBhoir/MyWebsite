@@ -1,0 +1,221 @@
+*{
+    font-family: "DejaVu Sans Mono", verdana, Consolas, "Courier New", monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    background-color: #000c18;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.styles{
+    background-color: #051c33;
+    height: 2.5rem;
+    width: 100%;
+}
+.styles ul li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    font-size: 1rem;
+    padding: 0.7rem;
+
+}
+.styles ul{
+    padding: 0.6rem 0 0;
+}
+
+.styles ul a{
+    color: #b6bccc;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.menubar{
+    background-color: #051336;
+    height: 850px;
+    width: 4rem;
+
+}
+
+.menubar ul{
+    text-align: center;
+
+}
+
+.menubar ul li{
+    list-style: none;
+    padding: 0.8rem 0.2rem;
+}
+
+
+
+.menubar ul a{
+    color: #677591;
+}
+
+
+.ProImg{
+    margin: 0.25rem 0 0.25rem 0.5rem;
+    height: 2rem;
+    border-radius: 100%;
+    float: left;
+}
+
+.ProImg2{
+    border-radius: 100%;
+    height: 2.5rem;
+}
+.AcountPicAndSettingIcon{
+    border-radius: 100%;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 5rem;
+    left: 0.7rem;
+}
+
+
+.Explorer{
+    clear: left;
+    position: absolute;
+    top: 2.5rem;
+    left: 4rem;
+    background-color: #060622;
+    width: 16rem;
+    height: 850px;
+}
+
+.Explorer ul li{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    padding: 0.1rem 1rem;
+}
+
+.Explorer ul a{
+    list-style: none;
+}
+
+.FilesTabs{
+    background-color: #1d1c2a;
+    height: 3rem;
+    position: absolute;
+    left: 20rem;
+    top: 2.5rem;
+    width: 100%;
+}
+
+.FilesTabs ul{
+    position: relative;
+    top: 0px;
+    left: 0rem;
+    /* padding: 0.8rem 0; */
+}
+
+
+
+.FilesTabs ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #717888;
+    display: inline-block;
+    font-size: 1rem;
+    list-style: none;
+    list-style-type: none;
+    padding: 0.90rem 1rem;
+}
+
+
+.FilesTabs ul li:active{
+    background-color: #000c18;
+}
+
+.FilesTabs ul a{
+
+}
+
+.contentSection{
+    padding: 100px;
+    /* background-color: rgb(46, 2, 2); */
+    height: 50rem;
+    width: 80%;
+    position: absolute;
+    left: 20rem;
+    top: 5.6rem;
+    text-align: center;
+}
+
+.nameDiv{
+    padding-top: 50px;
+    color: wheat;
+    /* display: inline-block; */
+    text-align: center;
+    /* float: right; */
+}
+
+.nameDiv h1{
+    font-family: 'public Sans', sans-serif;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    font-size: 3rem;
+}
+
+.p1{
+    padding: 20px 0 50px;
+    font-size: 2rem;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+
+}
+
+.borderDiv{
+    border-bottom: 10px dotted wheat;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.p2{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1rem;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.nameDiv span{
+    border-bottom: 2px solid wheat;
+    padding-bottom: 5px;
+
+}
+
+.myPic{
+    /* display: inline; */
+    width: 300px;
+}
+
+
+/* .main-container{
+
+}
+
+.profile-ranks{
+
+} */
+
+/* @media query for devices more than 1980 px screen resolution set max px size*/
