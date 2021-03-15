@@ -61,19 +61,19 @@ h2{
     padding: 0;
     height: 600px;
     background-image: url("/Imgs/coding_bg.jpg");
+    background-color:rgba(0,0,0,0.8);
     background-size: cover;
 }
-
-
 
 .header div{
     height: 100%;
     width: 100%;
+    background-color:rgba(0,0,0,0.5);
+
 
 }
 
 .header div div{
-    background-color:rgba(0,0,0,0.5);
     display: inline-block;
     height: 50%;
     width: 60%;
