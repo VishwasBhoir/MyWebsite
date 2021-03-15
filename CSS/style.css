@@ -69,11 +69,11 @@ h2{
 .header div{
     height: 100%;
     width: 100%;
-    background-color:rgba(0,0,0,0.5);
 
 }
 
 .header div div{
+    background-color:rgba(0,0,0,0.5);
     display: inline-block;
     height: 50%;
     width: 60%;
