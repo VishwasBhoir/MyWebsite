@@ -76,7 +76,7 @@ h2{
 .header div{
     height: 100%;
     width: 100%;
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0,0,0,0.6);
 
 
 }
@@ -89,7 +89,7 @@ h2{
     margin:145px auto;
     border: 1px solid wheat;
     border-radius: 10px;
-    background-color:rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0,0.5);
 }
 
 
