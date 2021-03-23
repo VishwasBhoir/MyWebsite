@@ -13,7 +13,6 @@ body{
 }
 
 section{
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -60,8 +59,18 @@ h2{
 .header{
     padding: 0;
     height: 600px;
-    background-image: url("/Imgs/coding_bg.jpg");
-    background-size: cover;
+    /* background-image: url("/Imgs/coding_bg.jpg"); */
+    /* background-size: cover; */
+}
+
+.BG_img{
+    height: 600px;
+    width:100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
 }
 
 .header div{
@@ -180,6 +189,16 @@ h2{
     .header{
         height: 300px;
     }
+
+    .BG_img{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
 
     .header div div{
         margin: 75px auto;
