@@ -145,7 +145,7 @@ h2{
 
 
 .skills div{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     height: 100px;
     padding: 4%;
@@ -194,11 +194,6 @@ h2{
     .BG_img{
     height: 300px;
     width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
 }
 
     .header div div{
