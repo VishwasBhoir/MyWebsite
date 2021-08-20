@@ -1,267 +1,245 @@
-*{
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: wheat;
-    text-align: center;
-
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: wheat;
+  text-align: center;
 }
 
-body{
-    background-color: skyblue;
+body {
+  background-color: skyblue;
 }
 
-section{
-    margin: 0 auto;
+section {
+  margin: 0 auto;
 }
 
-
-
-.navbar{
-    background-color: #00204a;
+.navbar {
+  background-color: #00204a;
 }
 
-
-
-h2{
-    font-size: 2rem;
-    font-weight: bolder;
-    padding-bottom: 2rem;
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-bottom: 2rem;
 }
 
-.styleNavigation{
-    padding: 0;
-    background-color: #00204a;
+.styleNavigation {
+  padding: 0;
+  background-color: #00204a;
 }
 
-.styleNavigation div{
-    display: inline-block;
-    margin: 0 10rem;
+.styleNavigation div {
+  display: inline-block;
+  margin: 0 10rem;
 }
 
-
-
-.styleNavigation div img{
-    width: 2.5rem;
+.styleNavigation div img {
+  width: 2.5rem;
 }
 
-.styleNavigation ul li{
-    display: inline-block;
-    margin: 2rem 1rem;
+.styleNavigation ul li {
+  display: inline-block;
+  margin: 2rem 1rem;
 }
 
-.styleNavigation ul a{
-    text-decoration: none;
-    color: wheat;
+.styleNavigation ul a {
+  text-decoration: none;
+  color: wheat;
 }
 
-.header{
-    padding: 0;
-    height: 600px;
-    /* background-image: url("/Imgs/coding_bg.jpg"); */
-    /* background-size: cover; */
+.header {
+  padding: 0;
+  height: 600px;
+  /* background-image: url("/Imgs/coding_bg.jpg"); */
+  /* background-size: cover; */
 }
 
-.BG_img{
-    height: 600px;
-    width:100%;
-    margin: 0 auto;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
+.BG_img {
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
 }
 
-.header div{
-    height: 100%;
-    width: 100%;
-    background-color:rgba(0,0,0,0.6);
-
-
+.header div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.header div div{
-    display: inline-block;
-    height: 50%;
-    width: 60%;
-    text-align: center;
-    margin:145px auto;
-    border: 1px solid wheat;
-    border-radius: 10px;
-    background-color:rgba(0,0,0,0.5);
+.header div div {
+  display: inline-block;
+  height: 50%;
+  width: 60%;
+  text-align: center;
+  margin: 145px auto;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.header div div span{
-    text-decoration: underline;
+.header div div span {
+  text-decoration: underline;
 }
 
-.header h1{
-    padding-top: 50px;
-    font-size: 100px;
-    font-weight: normal;
-    font-family: 'Italianno', cursive;
+.header h1 {
+  padding-top: 50px;
+  font-size: 100px;
+  font-weight: normal;
+  font-family: 'Italianno', cursive;
 }
 
-.header p{
-    padding-top: 5px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+.header p {
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-
-.profile{
-    background-color: #005792;
-    padding: 5rem 0;
+.profile {
+  background-color: #005792;
+  padding: 5rem 0;
 }
 
-.profile div{
-    text-align: center;
+.profile div {
+  text-align: center;
 }
 
-.profile img{
-    max-width: 250px;
-    padding-bottom: 50px;
+.profile img {
+  max-width: 250px;
+  padding-bottom: 50px;
 }
 
-.profile div h3{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+.profile div h3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.skills{
-    background-color: #00bbf0;
-    padding: 5rem 0;
+.skills {
+  background-color: #00bbf0;
+  padding: 5rem 0;
 }
 
-.
-
-.skills div{
-    margin: 2rem 5rem;
-    background-color: transparent;
+. .skills div {
+  margin: 2rem 5rem;
+  background-color: transparent;
 }
 
-
-
-.skills div{
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-    height: 100px;
-    padding: 4%;
-    margin: 20px auto;
-    height: inherit;
+.skills div {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  height: 100px;
+  padding: 4%;
+  margin: 20px auto;
+  height: inherit;
 }
 
-.skills div div p{
-    display: inline-block;
-    font-size: 1.8rem;
-    border-bottom: 2px solid wheat;
-    text-align: center;
+.skills div div p {
+  display: inline-block;
+  font-size: 1.8rem;
+  border-bottom: 2px solid wheat;
+  text-align: center;
 }
 
-.skills div div ul{
-    padding-left: 5rem;
+.skills div div ul {
+  padding-left: 5rem;
 }
 
-
-.skills div div ul li{
-    font-size: 1.5rem;
-    list-style: none;
-    text-align: left;
+.skills div div ul li {
+  font-size: 1.5rem;
+  list-style: none;
+  text-align: left;
 }
 
-.skills div ul li img{
-    width: 1.3rem;
-    margin-right: 1.5rem;
+.skills div ul li img {
+  width: 1.3rem;
+  margin-right: 1.5rem;
 }
 
-.hobbies{
-    background-color: #005792;
-    padding: 5rem;
+.projects {
+  background-color: #005792;
+  padding: 5rem;
 }
 
-.contact{
-    background-color: #00204a;
-    padding: 5rem;
+.contact {
+  background-color: #00204a;
+  padding: 5rem;
 }
 
-@media only screen and (max-width: 1024px){
-    .header{
-        height: 300px;
-    }
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 300px;
+  }
 
-    .BG_img{
+  .BG_img {
     height: 300px;
     width: 100%;
-}
+  }
 
-    .header div div{
-        margin: 75px auto;
-    }
+  .header div div {
+    margin: 75px auto;
+  }
 
-    .header h1{
-        font-size: 3rem;
-        padding-top: 1.5rem;
-    }
+  .header h1 {
+    font-size: 3rem;
+    padding-top: 1.5rem;
+  }
 
-    .header p{
-        font-size: 1rem;
-    }
+  .header p {
+    font-size: 1rem;
+  }
 
-    .profile img{
+  .profile img {
     width: 40%;
     height: auto;
     padding-bottom: 50px;
-    }
+  }
 
-    h2{
-        font-size: 1rem;
-    }
+  h2 {
+    font-size: 1rem;
+  }
 
+  .skills {
+    padding: 3rem 2rem;
+  }
 
+  .skills div div p {
+    border-bottom: 1px solid wheat;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
 
-    .skills{
-        padding: 3rem 2rem;
+  .skills div div ul {
+    padding-left: 1rem;
+  }
 
-    }
+  .skills div div ul li {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
 
-    .skills div div p{
-        border-bottom: 1px solid wheat;
-        font-size: 1.2rem;
-        text-align: center;
-        padding: 0.5rem;
-    }
+  .profile {
+    padding: 3rem 2rem;
+  }
 
-    .skills div div ul{
-        padding-left: 1rem;
-    }
+  .profile div h3 {
+    font-size: 1.5rem;
+  }
 
-    .skills div div ul li {
-        font-size: 1rem;
-        padding: 0.3rem;
-    }
+  .profile div p {
+    font-size: 0.8rem;
+  }
 
-    .profile{
-        padding: 3rem 2rem;
-    }
+  .hobbies {
+    padding: 3rem 2rem;
+  }
 
-    .profile div h3{
-        font-size: 1.5rem;
-    }
-
-    .profile div p{
-        font-size: 0.8rem;
-    }
-
-    .hobbies{
-        padding: 3rem 2rem;
-    }
-
-    .contact{
-        padding: 3rem 2rem;
-    }
-
-
+  .contact {
+    padding: 3rem 2rem;
+  }
 }
-
